@@ -23,12 +23,7 @@ Este projeto utiliza o framework Flask para desenvolvimento web em Python.
       venv\Scripts\activate
       ```
 
-3. **Instale as dependências: (se tiver)**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Instale o FLASK**
+3. **Instale o FLASK**
     ```bash
     pip install flask
     ```
@@ -37,7 +32,7 @@ Este projeto utiliza o framework Flask para desenvolvimento web em Python.
 
 1. **Defina a variável de ambiente do Flask:**
     ```bash
-    export FLASK_APP=app.py
+    export FLASK_APP=index.py
     export FLASK_ENV=development
     ```
 
@@ -52,12 +47,6 @@ Este projeto utiliza o framework Flask para desenvolvimento web em Python.
     def home():
     return "<h2>Hello, World!</h2>"
     ```
-
-- Antes de executar você deve apontar o APP para o arquivo index
-    ```bash
-    export FLASK_APP=index.py
-    ```
-
 
 3. **Inicie o servidor:**
     ```bash
